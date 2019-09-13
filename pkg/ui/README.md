@@ -103,7 +103,8 @@ Still, the tradeoff seems well worth it.
 
 ## CCL Build
 
-In CCL builds, code in `pkg/ui/ccl/src` overrides code in `pkg/ui/src` at build
+In [CockroachDB Community License](https://www.cockroachlabs.com/cockroachdb-community-license/)
+(or CCL) builds, code in `pkg/ui/ccl/src` overrides code in `pkg/ui/src` at build
 time, via a Webpack import resolution rule. E.g. if a file imports
 `src/views/shared/components/licenseType`, it'll resolve to
 `pkg/ui/src/views/shared/components/licenseType` in an OSS build, and
